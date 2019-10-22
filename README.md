@@ -72,7 +72,7 @@ In order to reference this component in other files, you'll need to add the file
 
 Following this, run `composer update` to make the component available in other files.
 
-You can then reference this component in other templates:
+You can now reference this component in other templates:
 
 ```
 <?php
