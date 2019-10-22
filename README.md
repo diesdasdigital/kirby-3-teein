@@ -9,7 +9,7 @@ If this plugin is activated, it will require all templates to use the [Teein/Htm
 composer require diesdasdigital/kirby-3-teein
 ```
 
-## Basic Usage
+## Usage
 
 Once installed, all Kirby templates will need an explicit `return` statement, returning a Teein/HTML element:
 
