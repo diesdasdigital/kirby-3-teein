@@ -1,0 +1,20 @@
+{
+  "name": "diesdasdigital/kirby-3-teein",
+  "description": "Kirby 3 Teein/Html Virtual DOM plugin",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "diesdas.digital",
+      "email": "hello@diesdas.digital"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "getkirby/composer-installer": "^1.1",
+    "teein/html": "^1.0"
+  },
+  "extra": {
+    "installer-name": "teein"
+  }
+}
