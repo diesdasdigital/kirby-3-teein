@@ -12,7 +12,7 @@ composer require diesdasdigital/kirby-3-teein
 
 Once installed, all Kirby templates will need an explicit `return` statement, returning a Teein/HTML element:
 
-```
+```php
 <?php
 
 use function Teein\Html\Elements\div;
@@ -31,7 +31,7 @@ Firstly, name and save your component php file. We'll use the example **grid.php
 
 Secondly, add a namespace at the top of your component file. For example, this can be the project name. In the example **grid.php** file, we'll use `namespace Test\Components`:
 
-```
+```php
 <?php
 
 namespace Test\Components;
@@ -39,7 +39,7 @@ namespace Test\Components;
 
 Thirdly, within your component file import the relevant Teein/Html functions using the `use` keyword and output them:
 
-```
+```php
 <?php
 
 namespace Test\Components;
@@ -62,7 +62,7 @@ function grid(array $children)
 
 In order to reference this component in other files, you'll need to add the file path to `autoload` `files` in your composer.json file:
 
-```
+```json
 "autoload": {
   "files": [
     "site/templates/components/grid.php"
@@ -74,7 +74,7 @@ Following this, run `composer update` to make the component available in other f
 
 You can now reference this component in other templates:
 
-```
+```php
 <?php
 
 use function Test\Components\grid;
