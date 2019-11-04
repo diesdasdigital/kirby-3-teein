@@ -28,7 +28,6 @@ class TeeinTemplate extends Kirby\Cms\Template {
         }
 
         extract($__data);
-
         return toHtml(beautify(document(include $__file)));
     }
 }
